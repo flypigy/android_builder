@@ -13,8 +13,6 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '11'
-          distribution: 'temurin'
-          cache: gradle
         
       - id: get-project
         name: Get project name
